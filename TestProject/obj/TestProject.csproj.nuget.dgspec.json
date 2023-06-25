@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/TestProject/TestProject.csproj": {}
+  },
+  "projects": {
+    "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/TestProject/TestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/TestProject/TestProject.csproj",
+        "projectName": "TestProject",
+        "projectPath": "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/TestProject/TestProject.csproj",
+        "packagesPath": "/Users/yngvehestem/.nuget/packages/",
+        "outputPath": "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/TestProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yngvehestem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console.csproj": {
+                "projectPath": "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console.csproj",
+        "projectName": "YngveHestem.GenericParameterCollection.Console",
+        "projectPath": "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console.csproj",
+        "packagesPath": "/Users/yngvehestem/.nuget/packages/",
+        "outputPath": "/Users/yngvehestem/Projects/YngveHestem.GenericParameterCollection.Console/YngveHestem.GenericParameterCollection.Console/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yngvehestem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "YngveHestem.GenericParameterCollection": {
+              "target": "Package",
+              "version": "[1.0.2-beta19, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
