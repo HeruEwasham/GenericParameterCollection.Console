@@ -11,7 +11,7 @@ namespace TestProject // Note: actual namespace depends on the project name.
             { "input", "" },
             { "output", "test.mkv" },
             { "volume", 1.0f },
-            { "sleepFor", 1000 },
+            { "sleepFor", 1000, new ParameterCollection { { "desc", "How long to sleep in milliseconds." } } },
             { "shouldSleep", false }
         };
 
@@ -24,6 +24,10 @@ namespace TestProject // Note: actual namespace depends on the project name.
             Console.WriteLine(Environment.NewLine);
 
             Console.WriteLine("Parameters with values gotten from arguments: " + argsAsParameterCollection);
+
+            Console.WriteLine(Environment.NewLine + "Show default parameters as a table:" + Environment.NewLine + ParameterCollectionDefaultValues.GetParametersHelpTable());
+
+            Console.WriteLine(Environment.NewLine + "Show current parameters as a table:" + Environment.NewLine + argsAsParameterCollection.GetParametersHelpTable(null, false));
 
             Console.ReadLine();
         }

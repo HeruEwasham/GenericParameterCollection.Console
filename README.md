@@ -6,9 +6,17 @@ This provides controls for using [GenericParameterCollection](https://github.com
 
 ### Convert a list of console-arguments to a ParameterCollection
 
+Extension method SetValuesFromConsoleArguments(..)
+
 You provide a ParameterCollection with some default values. Then you can send the array of string-arguments that are provided in the Main-method to the extension-method SetValuesFromConsoleArguments(..). This method will then parse the arguments and try the best to convert the values based on the converters available.
 
 This method supports setting a custom prefix for defining parameter-keys in the console (default is "--"). Mark that all parameter-keys must be only one word.
+
+### Get the parameters as a table
+
+Extension method GetParametersHelpTable(..)
+
+You provide a ParameterCollection, and have some ways to customize it. This include an optional Description field and the headers.
 
 ## FAQ
 
@@ -18,7 +26,7 @@ All types that can convert from a string is supported. If the type has not suppo
 
 ### I want to get the contents of a file as a byte-array. Will this library support that?
 
-Currently we do not supply any special converters that opens up a file and get the contents as a byte array. But it should be easy to implement such a converter by creating a custom converter and add it to the ParameterCollection.
+Currently we do not supply any special converters that opens up a file and get the contents as a byte array. But it should be easy to implement such a converter by creating a custom converter and add it either to the ParameterCollection or directly to the extension method.
 
 ### What do I need to think about when creating custom converters?
 
